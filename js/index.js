@@ -6,7 +6,7 @@ function area () {
     var breath = prompt("What is your breath?", 5);
     var area = 1/2 * length * breath;
     var hypo = Math.sqrt(length*length + breath*breath);
-    document.getElementById("Area").innerHTML = area;
+    document.getElementById("Area").innerHTML = "The area of the traingle is " + area;
 
     draw();
     function draw() {
